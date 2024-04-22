@@ -1,0 +1,15 @@
+:root {
+  --primary: #822418;
+  --secondary: #f4a313;
+  --bg-avatar: #ffe495;
+  --bg-pages: #fff6c9;
+}
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins";
+}
