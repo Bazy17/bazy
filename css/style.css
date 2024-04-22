@@ -261,7 +261,7 @@ footer .avatar-bottom p {
     position: absolute;
     top: 20%;
     right: 0;
-    height: 40vh;
+    height: 50vh;
     width: 100%;
     padding: 0px 0px;
     flex-direction: column;
@@ -320,7 +320,7 @@ footer .avatar-bottom p {
   }
   nav ul {
     position: absolute;
-    top: 19%;
+    top: 20%;
     right: 0;
     height: 50vh;
     width: 50%;
