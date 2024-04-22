@@ -259,8 +259,8 @@ footer .avatar-bottom p {
   }
   nav ul {
     position: absolute;
-    top: 19%;
-    right: "";
+    top: 20%;
+    right: 0;
     height: 40vh;
     width: 100%;
     padding: 0px 0px;
