@@ -10,7 +10,6 @@ html {
   padding: 0;
   margin: 0;
   list-style: none;
-  text-decoration: none;
   font-family: "Poppins";
 }
 body {
@@ -49,8 +48,8 @@ nav ul {
   align-items: center;
   justify-items: center;
   width: 70%;
-  padding: 0px 20px;
 }
+
 nav ul li a {
   color: #fff;
   text-decoration: none;
@@ -58,10 +57,24 @@ nav ul li a {
   font-size: 24px;
   font-style: normal;
   text-transform: uppercase;
+  padding: 20px;
 }
 
 nav ul li a:hover {
   color: var(--secondary);
+  transition: all 1s ease-in-out;
+  padding: 10px 20px;
+  box-shadow: 0px -3px 0px 1px var(--secondary) inset;
+  border-radius: 10px;
+  border: none;
+}
+
+nav ul li a.active {
+  color: var(--secondary);
+  padding: 10px 20px;
+  box-shadow: 0px -3px 0px 1px var(--secondary) inset;
+  border-radius: 10px;
+  border: none;
 }
 
 .menu-toggle {
@@ -202,6 +215,7 @@ footer ul li a {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
+  text-decoration: none;
 }
 footer ul li a:hover {
   color: var(--secondary);
@@ -217,7 +231,7 @@ footer .avatar-bottom p {
   font-weight: 700;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   nav ul {
     padding: 0px 0px;
   }
@@ -259,9 +273,9 @@ footer .avatar-bottom p {
   }
   nav ul {
     position: absolute;
-    top: 20%;
-    right: 0;
-    height: 50vh;
+    top: 19%;
+    right: "";
+    height: 40vh;
     width: 100%;
     padding: 0px 0px;
     flex-direction: column;
@@ -320,9 +334,9 @@ footer .avatar-bottom p {
   }
   nav ul {
     position: absolute;
-    top: 20%;
+    top: 18%;
     right: 0;
-    height: 50vh;
+    height: 40vh;
     width: 50%;
     padding: 0 0;
     flex-direction: column;
